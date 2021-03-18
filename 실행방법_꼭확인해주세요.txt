@@ -1,0 +1,13 @@
+make파일의 구분을위해 pps.c, ssu_shell.c, ttop.c 세개의 파일을 나누어 
+
+각각 폴더에 소스코드와 makefile을 구성해두었습니다. 
+
+make 명령어 수행시 각 실행파일 pps.exe와 ttop.exe는 ssu_shell.exe는
+
+각각 폴더에서 생성되게 해두었으나 pps.exe와 ttop.exe는 ssu_shell.exe와 
+
+같은 폴더에 존재해야 실행됩니다! 왜냐하면
+ 
+pps와 ttop 실행파일이 ssu_shell을 실행하는 pwd에 있다는 전제하에 코딩을 해두었기 때문입니다!
+
+감사합니다!!!!!!
